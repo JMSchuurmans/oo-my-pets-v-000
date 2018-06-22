@@ -12,5 +12,7 @@ class Fish
     self.new(name).tap {|fish| fish.save}
   end
 
+  def save
+    @@all << self
 
 end
