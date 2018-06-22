@@ -66,7 +66,7 @@ class Owner
 
   def list_pets
     #@pets.map { |k, v| v.each.count }
-    @pets[:dogs].each.count
+    @pets[:dogs]map.each.count
     @pets[:cats].each.count
     @pets[:fishes].each.count
 
