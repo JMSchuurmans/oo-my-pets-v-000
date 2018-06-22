@@ -1,6 +1,9 @@
 class Owner
 
-  def all
+  @@all = []
+
+  def self.all
+    @@all
 
   end
 
