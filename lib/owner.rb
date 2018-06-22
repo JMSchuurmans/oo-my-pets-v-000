@@ -1,6 +1,8 @@
 class Owner
 
+def all
 
+end
 
 
 
