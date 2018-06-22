@@ -71,7 +71,7 @@ class Owner
     end
     counter += 1
   end
-  
+
 
 
 
