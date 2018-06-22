@@ -9,7 +9,7 @@ class Owner
   def initialize(species)
     @species = "human"
     @@all << self
-    @say_species = "I am a human"
+    @say_species = "I am a human."
   end
 
   def self.all
