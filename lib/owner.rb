@@ -65,6 +65,12 @@ class Owner
   end
 
   def list_pets
+    counter = 0
+    @pets.each do | animal, name |
+      puts "I have #{number} #{animal}, #{number} #{animal}, and #{number} #{animal}."
+    end
+    counter += 1
+  end
     
   end
 
