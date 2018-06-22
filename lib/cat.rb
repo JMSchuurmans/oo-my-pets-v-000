@@ -4,6 +4,9 @@ class Cat
 
   def initialize(mood)
     @mood = mood
+    @name=name
   end
+
+
 
 end
