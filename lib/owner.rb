@@ -66,7 +66,7 @@ class Owner
 
   def list_pets
     @pets.map { |k, v| v.each.count }
-      puts "I have #{v[0]} fish, #{v[2]} dog(s), and #{v[1]} cat(s)."
+      puts "I have #{@pets[0]} fish, #{@pets[2]} dog(s), and #{@pets[1]} cat(s)."
 
 
   end
