@@ -10,8 +10,8 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << self
     @say_species = "I am a human."
+    @@all << self
   end
 
   def self.all
