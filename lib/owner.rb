@@ -69,13 +69,6 @@ class Owner
      num_cats = @pets[:cats].size
      num_fish = @pets[:fishes].size
      return "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s)."
-   end
-
-
   end
-
-
-
-
 
 end
