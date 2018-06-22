@@ -65,7 +65,7 @@ class Owner
   end
 
   def list_pets
-    @pets.map
+    @pets.map { |k, v| v }
   end
 
 
