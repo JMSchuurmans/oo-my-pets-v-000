@@ -2,7 +2,7 @@ class Owner
 
   
 
-  def self.all
+  def self.all(owner)
     owner = self.new
   end
 end
