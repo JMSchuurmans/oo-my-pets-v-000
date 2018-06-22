@@ -65,7 +65,7 @@ class Owner
   end
 
   def list_pets
-    { dogs: name, cats: name, fishes: name }.each_with_index do |(key, value), index|
+    @pets.each_with_index do |(key, value), index|
       puts "#{index}: #{key} => #{value}"
     end 
   end
