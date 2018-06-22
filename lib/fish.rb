@@ -8,12 +8,4 @@ class Fish
     @mood = "nervous"
   end
 
-  #def self.create(name)
-  #  self.new(name).tap {|fish| fish.save}
-  #end
-
-  #def save
-  #  @@all << self
-  #end
-
 end
