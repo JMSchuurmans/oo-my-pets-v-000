@@ -30,7 +30,7 @@ class Owner
     @say_species = "I am a human."
   end
 
-  def buy_fish(name)
+  def buy_fish
     name = Fish.new
     @pets[:fishes] << name
 
