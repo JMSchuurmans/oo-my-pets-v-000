@@ -65,9 +65,9 @@ class Owner
   end
 
   def list_pets
-    @pets[:fishes].map.count
-    @pets[:dogs].map.count
-    @pets[:cats].map.count
+    @pets[:fishes].count
+    @pets[:dogs].count
+    @pets[:cats].count
 
   end
 
