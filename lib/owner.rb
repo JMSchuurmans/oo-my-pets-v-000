@@ -4,7 +4,7 @@ class Owner
 
   @@all = []
 
-  
+
 
   def self.all
     @@all
@@ -13,4 +13,5 @@ class Owner
   def self.create(name)
     owner = self.new(name)
     owner
+  end
 end
