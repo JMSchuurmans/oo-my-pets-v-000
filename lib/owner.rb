@@ -58,7 +58,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.reset_all
+    @pets.select{ |pets| pets.mood = "nervous" }
   end
 
 
