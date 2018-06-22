@@ -65,11 +65,9 @@ class Owner
   end
 
   def list_pets
-    number = 0
-    @pets.each do | animal, name |
-      puts "I have #{number} #{animal}, #{number} #{animal}, and #{number} #{animal}."
-    end
-    number += 1
+    { dogs: name, cats: name, fishes: name }.each_with_index do |(key, value), index|
+      puts "#{index}: #{key} => #{value}"
+    end 
   end
 
 
