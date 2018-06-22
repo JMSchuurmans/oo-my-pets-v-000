@@ -27,6 +27,9 @@ class Owner
     @@all.count
   end
 
+  def say_species
+    @say_species = "I am a human."
+
 
 
 end
