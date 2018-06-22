@@ -2,6 +2,7 @@ class Owner
 
   require 'pry'
 
+  attr_accessor :name
   attr_reader :species, :say_species
 
   @@all = []
@@ -23,10 +24,6 @@ class Owner
   def self.count
     @@all.count
   end
-
-  #def say_species
-  #  puts "I am a human."
-  #end
 
 
 
