@@ -30,6 +30,8 @@ class Owner
     @say_species = "I am a human."
   end
 
+  
+
 
 
 end
