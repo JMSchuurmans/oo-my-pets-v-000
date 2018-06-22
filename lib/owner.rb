@@ -58,7 +58,7 @@ class Owner
   end
 
   def sell_pets
-    @@all.clear
+    @pets.clear
   end
 
 
