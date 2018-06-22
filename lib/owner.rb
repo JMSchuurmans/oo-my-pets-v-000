@@ -1,5 +1,7 @@
 class Owner
 
+  attr_accessor :name
+
   @@all = []
 
   
@@ -7,4 +9,8 @@ class Owner
   def self.all
     @@all
   end
+
+  def self.create(name)
+    owner = self.new(name)
+    owner
 end
