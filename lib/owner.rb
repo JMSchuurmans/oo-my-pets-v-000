@@ -1,17 +1,7 @@
 class Owner
 
-  attr_accessor :name
+  attr_accessor :pets
 
-  @@all = []
-
-
-
-  def self.all
-    @@all
+  def initialize(pets)
+    @pets = pets
   end
-
-  def self.create(name)
-    owner = self.new(name)
-    owner
-  end
-end
