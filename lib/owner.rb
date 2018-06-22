@@ -1,6 +1,6 @@
 class Owner
 
-  attr_
+  
 
   @@all = []
 
