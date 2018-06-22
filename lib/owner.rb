@@ -1,5 +1,7 @@
 class Owner
 
+  require 'pry'
+
   attr_reader :species
 
   @@all = []
