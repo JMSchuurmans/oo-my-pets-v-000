@@ -30,6 +30,9 @@ class Owner
     @say_species = "I am a human."
   end
 
+  def buy_fish
+    
+  end
   
 
 
