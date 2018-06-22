@@ -30,7 +30,8 @@ class Owner
     @say_species = "I am a human."
   end
 
-  def buy_fish(fish)
+  def buy_fish(name)
+    name = Fish.new
 
   end
 
