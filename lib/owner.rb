@@ -69,7 +69,7 @@ class Owner
       puts "#{index}: #{key} => #{value}"
     end
   end
-  binding.pry
+
 
 
 
